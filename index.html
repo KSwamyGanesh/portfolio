@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ganesh | Portfolio</title>
+  <meta name="description" content="Personal portfolio of Ganesh.">
+
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Clean Minimal Header -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-content">
+      <a href="#" class="brand-logo" aria-label="Ganesh Home">
+        <span class="brand-icon">G</span>
+        <span class="brand-text">Ganesh<span class="brand-dot">.</span></span>
+      </a>
+
+      <!-- Header Navigation Links -->
+      <nav class="nav-links">
+        <a href="#about" class="nav-item">About</a>
+        <a href="mailto:swamy.ganesh.karri@gmail.com" class="nav-item">Contact</a>
+        <a href="https://github.com/KSwamyGanesh/" target="_blank" rel="noopener noreferrer" class="nav-icon-link"
+          aria-label="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+            </path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/swamy-ganesh-karri" target="_blank" rel="noopener noreferrer"
+          class="nav-icon-link" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+        <a href="mailto:swamy.ganesh.karri@gmail.com" class="btn-say-hello">
+          <span>Say Hello</span>
+          <span class="wave-hand">👋</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Hero / Landing View -->
+  <main class="landing-main">
+    <div class="container landing-container">
+
+      <!-- Left Column: Developer Greeting -->
+      <div class="landing-left">
+        <div class="welcome-pill">
+          <span class="status-indicator"></span>
+          <span>Open to collaborations</span>
+        </div>
+
+        <h1 class="greeting-heading">
+          Hey there! <span class="wave-emoji">👋</span><br>
+          This is <span class="highlight-name">Ganesh</span>.
+        </h1>
+      </div>
+
+      <!-- Right Column: Picture of Ganesh -->
+      <div class="landing-right">
+        <div class="picture-wrapper">
+          <div class="picture-card">
+            <img src="ganesh.jpg" alt="Portrait of Ganesh" class="developer-photo" id="dev-photo">
+          </div>
+          <!-- Decorative subtle elements -->
+          <div class="deco-badge badge-top">
+            <span class="sparkle">✨</span>
+            <span>Software Engineer</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- About Me Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-header">
+        <div class="section-divider-bar">
+          <span class="section-tag">About Me</span>
+        </div>
+        <h2 class="about-title">Turning Ideas into Reliable, Scalable<br>Backend Systems</h2>
+      </div>
+
+      <div class="about-two-containers">
+        <!-- Vertical Container 1: About Me (Who I Am, Experience, Goals) -->
+        <article class="about-container-card about-main-card">
+          <div class="card-header-meta">
+            <div class="card-icon-wrap icon-blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <span class="card-badge">Full-Stack & Backend Craft</span>
+          </div>
+
+          <h3 class="card-title">Who I Am & What Drives Me</h3>
+
+          <div class="about-narrative-group">
+            <p class="card-text">
+              I'm a <strong>Java and Spring Boot Developer</strong> passionate about developing meaningful features and
+              building reliable, scalable backend solutions. I enjoy taking on new challenges, understanding how systems
+              work, and turning ideas into practical implementations that solve real-world problems.
+            </p>
+
+            <div class="narrative-divider"></div>
+
+            <p class="card-text">
+              With over <strong>2 years of experience at Accenture</strong>, I worked on the <strong>Samsung Commerce
+                Project</strong>, gaining hands-on experience in Java, Spring, SAP Commerce (Hybris), REST APIs, and
+              backend development. My experience includes developing and enhancing e-commerce features, customizing
+              business logic, and resolving complex technical issues in enterprise applications.
+            </p>
+
+            <div class="narrative-divider"></div>
+
+            <p class="card-text">
+              I'm always eager to learn, adapt, and explore new technologies. Currently, I'm expanding my knowledge in
+              <strong>AI, automation, and intelligent systems</strong>, with a goal of combining strong backend
+              engineering with emerging technologies to build smarter and more impactful solutions.
+            </p>
+          </div>
+        </article>
+
+        <!-- Vertical Container 2: Education -->
+        <article class="about-container-card education-card">
+          <div class="card-header-meta">
+            <div class="card-icon-wrap icon-emerald">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <span class="card-badge badge-edu">2019 – 2023</span>
+          </div>
+
+          <h3 class="card-title">Education</h3>
+
+          <div class="edu-content-block">
+            <div class="edu-degree">Bachelor of Engineering - BE</div>
+            <div class="edu-major">Computer Science</div>
+            <div class="edu-university">Sathyabama University</div>
+            <div class="edu-location">Chennai, India • 2019 – 2023</div>
+
+            <div class="narrative-divider"></div>
+
+            <p class="card-text">
+              Acquired a comprehensive grounding in computer science fundamentals, data structures, algorithms,
+              object-oriented software engineering, database management systems, and backend design principles.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
