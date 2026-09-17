@@ -617,6 +617,175 @@ html, body {
 }
 
 /* ==========================================================================
+   Professional Experience Section Styles
+   ========================================================================== */
+.experience-section {
+  padding: 6rem 0 7rem;
+  background: #ffffff;
+  border-top: 1px solid var(--border-light);
+  position: relative;
+}
+
+.experience-header {
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 3.5rem;
+}
+
+.experience-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.1rem, 3.6vw, 2.85rem);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+  color: var(--text-primary);
+  margin-bottom: 0;
+}
+
+.experience-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.experience-card {
+  background: #ffffff;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 3rem;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.12);
+  border-color: rgba(99, 102, 241, 0.35);
+}
+
+.exp-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.exp-lead {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.exp-role {
+  font-family: var(--font-heading);
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+  letter-spacing: -0.015em;
+}
+
+.exp-company-project {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 1.05rem;
+  flex-wrap: wrap;
+}
+
+.exp-company {
+  color: #4f46e5;
+  font-weight: 700;
+}
+
+.exp-dot {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.exp-project {
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.exp-date-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.45rem 1.1rem;
+  background: rgba(99, 102, 241, 0.08);
+  color: #4f46e5;
+  border: 1px solid rgba(99, 102, 241, 0.22);
+  border-radius: var(--radius-full);
+  font-size: 0.88rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.exp-bullets-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+  margin: 1.8rem 0;
+}
+
+.exp-bullet-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.9rem;
+  font-size: 1.02rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+
+.bullet-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: rgba(99, 102, 241, 0.1);
+  color: #4f46e5;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.exp-tags-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 2rem;
+  padding-top: 1.8rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 768px) {
+  .experience-card {
+    padding: 2rem 1.6rem;
+  }
+
+  .exp-lead {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.9rem;
+  }
+
+  .exp-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .experience-section {
+    padding: 4.5rem 0 5rem;
+  }
+}
+
+/* ==========================================================================
    Technical Skills Section Styles
    ========================================================================== */
 .skills-section {
